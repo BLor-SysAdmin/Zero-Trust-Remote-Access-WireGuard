@@ -1,6 +1,6 @@
 # Cryptographic Remote Access Tunnels & Perimeter Security Engineering
 
-![Homelab Master Network Topology](https://githubusercontent.com/BLor-SysAdmin/HTC-Network-Administration-Labs/main/homelab-topology-blueprint.png)
+![Homelab Master Network Topology](https://raw.githubusercontent.com/BLor-SysAdmin/HTC-Network-Administration-Labs/main/homelab-topology-blueprint.png)
 
 ## Executive Architecture Overview
 This security infrastructure portfolio capstone showcases the engineering and deployment of a kernel-integrated, split-tunnel WireGuard VPN solution. In modern system environments, exposing internal administrative panels, server terminals, or hypervisor dashboards directly to the public WAN presents an unacceptable attack surface. This project eliminates that vulnerability by establishing a strict Zero Trust perimeter. Outside clients are completely blocked from seeing internal infrastructure ports unless they possess valid, authenticated cryptographic public keys, allowing for secure road-warrior remote network management over unsecure public cellular connections.
